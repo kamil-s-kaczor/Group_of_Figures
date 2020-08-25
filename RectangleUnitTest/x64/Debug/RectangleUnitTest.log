@@ -1,0 +1,8 @@
+﻿  RectangleUnitTest.cpp
+C:\Users\user\source\repos\Group_of_Figures\RectangleUnitTest\RectangleUnitTest.cpp(16,4): error C2259: „Rectangle”: nie można utworzyć wystąpienia klasy abstrakcyjnej
+C:\Users\user\source\repos\Group_of_Figures\Group_of_Figures\Rectangle.h(3): message : zobacz deklarację „Rectangle”
+C:\Users\user\source\repos\Group_of_Figures\RectangleUnitTest\RectangleUnitTest.cpp(16,4): message : z powodu następujących składowych:
+C:\Users\user\source\repos\Group_of_Figures\RectangleUnitTest\RectangleUnitTest.cpp(16,4): message : "double Figure::get_field(void) const": jest abstrakcyjna
+C:\Users\user\source\repos\Group_of_Figures\Group_of_Figures\Figure.h(19): message : zobacz deklarację „Figure::get_field”
+C:\Users\user\source\repos\Group_of_Figures\RectangleUnitTest\RectangleUnitTest.cpp(16,4): message : "double Figure::get_perimeter(void) const": jest abstrakcyjna
+C:\Users\user\source\repos\Group_of_Figures\Group_of_Figures\Figure.h(20): message : zobacz deklarację „Figure::get_perimeter”
